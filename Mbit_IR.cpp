@@ -97,23 +97,4 @@ namespace Mbit_IR {
   void onPressEvent(RemoteButton btn, Action body) {
     actions[btn].push_back(body);
   }
-  
-  int getFormat(){
-      return (int)(fmt);   
-  }
-
-  int getSysCode1(){
-      return (int)buf[0];
-    }
-  int getSysCode2(){
-      return (int)buf[1];
-    }
-
-  int getBtnCode1(){
-      return (int)buf[2];
-    } 
-
-  int getBtnCode2(){
-      return (int)buf[3];
-    }  
 }
