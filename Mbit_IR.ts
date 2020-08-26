@@ -31,39 +31,5 @@ namespace Mbit_IR {
       return
     }
   
-    //% blockId=Mbit_IR_format
-    //% blockGap=20 weight=90
-    //% block="get IR format(NEC AHEA SONY)"
-
-    export function getFormat(): number {
-      return fmt;
-    } 
-    //% blockId=Mbit_IR_syscode1
-    //% blockGap=20 weight=90
-    //% block="get syscode1"
-
-    export function getSysCode1(): number {
-      return buf[0];
-    }
-    //% blockId=Mbit_IR_syscode2
-    //% blockGap=20 weight=90
-    //% block="get syscode2"
-
-    export function getSysCode2(): number {
-     return buf[1];
-    }
-    //% blockId=Mbit_IR_btncode1
-    //% blockGap=20 weight=90
-    //% block="get btncode1"
-
-    export function getBtnCode1(): number {
-     return buf[2];
-    } 
-    //% blockId=Mbit_IR_btncode2
-    //% blockGap=20 weight=90
-    //% block="get btncode2"
-    export function getBtnCode2(): number {
-     return buf[3];
-    }   
   }
   
