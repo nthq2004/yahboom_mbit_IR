@@ -99,7 +99,7 @@ namespace Mbit_IR {
   }
   
   int getFormat(){
-      return (int)(*fmt);   
+      return (int)(fmt);   
   }
 
   int getSysCode1(){
@@ -109,9 +109,10 @@ namespace Mbit_IR {
       return (int)buf[1];
     }
 
-  int getBtnCode1() {
-      return (int)buf[2]；
+  int getBtnCode1(){
+      return (int)buf[2];
     } 
+
   int getBtnCode2(){
       return (int)buf[3];
     }  
