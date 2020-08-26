@@ -110,7 +110,7 @@ namespace Mbit_IR {
     }
 
   int getBtnCode1() {
-      return (int)buf[2]
+      return (int)buf[2]；
     } 
   int getBtnCode2(){
       return (int)buf[3];
